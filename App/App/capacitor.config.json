@@ -1,0 +1,24 @@
+{
+  "appId": "com.mammoth.myphoto",
+  "appName": "MyPhoto Client",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "GoogleAuth": {
+      "scopes": [
+        "profile",
+        "email"
+      ],
+      "serverClientId": "61025191026-ksglieb88cqug2q70fvppfo1c7dr3ita.apps.googleusercontent.com",
+      "forceCodeForRefreshToken": true
+    }
+  },
+  "cordova": {},
+  "server": {
+    "cleartext": true
+  }
+}
